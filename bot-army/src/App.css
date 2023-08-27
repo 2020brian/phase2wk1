@@ -1,0 +1,49 @@
+.bot-collection{
+  flex: 70%;
+  align-items: center;
+  background: gainsboro;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.your-bot-army{
+  flex: 30%;
+  background: lightskyblue;
+  text-align: center;
+  margin-right: 2px;
+  
+}
+
+.app{
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+  padding: 20px;
+  
+  margin: 0 2px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+
+.bot-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  justify-content: center;
+}
+
+.bot-profile{
+  width: 200px;
+  background: lightpink;
+  align-content: flex;
+  
+}
+
+.bot-profile img {
+  max-width: 100%;
+  height: auto;
+}
+
