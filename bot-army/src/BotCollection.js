@@ -9,8 +9,8 @@ const BotCollection = ({ bots, onBotClick }) => {
       <div className="bot-container">
       {bots.map(bot => (
           <div key={bot.id} className={`bot-profile ${bot.selected ? 'selected' : ''}`} onClick={() => onBotClick(bot)}>
-              <img src={bot.avatar_url} alt={`Avatar of ${bot.name}`} />
               <h3>{bot.name}</h3>
+              <img src={bot.avatar_url} alt={`Avatar of ${bot.name}`} />
               <p>Health: {bot.health}</p>
               <p>Damage: {bot.damage}</p>
               <p>Armor: {bot.armor}</p>
