@@ -16,7 +16,7 @@ Fetch data from a local server running JSON DB server.
 
 # Author and License
 
-Author: Gideon Mugere
+Author: Onjoro Brian
 
 Contributor: Bin Amin
 
